@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Momoko Ito | デザイナー・ポートフォリオ</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800;900&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+  <style>
+    .page-transition {
+      position: fixed; top: 0; left: 0; width: 100%; height: 100vh;
+      background: #111111; z-index: 10000;
+      display: flex; justify-content: center; align-items: center;
+      transform: translateY(0);
+    }
+    .transition-logo {
+      color: #ffffff; font-family: 'Montserrat', sans-serif; font-weight: 900; font-size: 2rem; letter-spacing: 0.1em;
+    }
+    .transition-logo span { color: #f97316; }
+  </style>
+  
+<body>
+
+<!-- 
+  ポートフォリオをご覧いただきありがとうございます。
+  企画・設計・制作から改善までを一貫して担ってきた経験から、目的に沿ったデザイン制作が得意です。
+  コーディングは独学ですが、他人が見ても分かりやすいコード作成を心掛けています。
+  TEL：090-6412-7193
+  MAIL：mmk.ito0614@gmail.com
+  伊藤桃子
+-->
+
+  <!-- ローディング用 -->
+  <div class="page-transition" id="page-transition">
+    <div class="transition-logo">PORTFOLIO<span>.</span>M</div>
+  </div>
+
+  <!-- 背景ベース -->
+  <div class="gradient-bg"></div>
+  <div class="noise-overlay"></div>
+
+  <!-- ヘッダー -->
+  <header class="global-header">
+    <div class="header-container">
+      <a href="index.html" class="logo">PORTFOLIO<span>.</span>M</a>
+      <nav class="header-nav">
+        <a href="#works">WORKS</a>
+        <a href="#profile">ABOUT ME</a>
+        <a href="mailto:mmk.ito0614@gmail.com" class="header-contact">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+          <span>CONTACT</span>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- FV -->
+  <section class="hero" id="hero">
+    <div class="hero-visuals delay-3">
+      <!-- 1列目 -->
+      <div class="marquee-track track-up">
+        <div class="marquee-content">
+          <div class="marquee-group">
+            <div class="marquee-img"><img src="./img/work01.png" alt="コーポレートサイト"></div>
+            <div class="marquee-img"><img src="./img/work02.png" alt="名刺"></div>
+            <div class="marquee-img"><img src="./img/work03.png" alt="AI開発LP"></div>
+          </div>
+          <div class="marquee-group">
+            <div class="marquee-img"><img src="./img/work04.png" alt="企業パンフレット"></div>
+            <div class="marquee-img"><img src="./img/work05.png" alt="採用サイト"></div>
+            <div class="marquee-img"><img src="./img/work06.png" alt="チラシ"></div>
+        </div>
+        </div>
+      </div>
+      <!-- 2列目 -->
+      <div class="marquee-track track-down">
+        <div class="marquee-content">
+          <div class="marquee-group">
+            <div class="marquee-img"><img src="./img/work07.png" alt="生成AILP"></div>
+            <div class="marquee-img"><img src="./img/work08.png" alt="保護者向けパンフレット"></div>
+            <div class="marquee-img"><img src="./img/work09.png" alt="受託LP"></div>
+          </div>
+          <div class="marquee-group">
+            <div class="marquee-img"><img src="./img/work10.png" alt="セミナー資料"></div>
+            <div class="marquee-img"><img src="./img/work11.png" alt="営業資料"></div>
+            <div class="marquee-img"><img src="./img/work12.png" alt="コラム"></div>
+          </div>
+        </div>
+      </div>
+      <!-- 3列目 -->
+      <div class="marquee-track track-up">
+        <div class="marquee-content">
+          <div class="marquee-group">
+            <div class="marquee-img"><img src="./img/work13.png" alt="プレスリリース"></div>
+            <div class="marquee-img"><img src="./img/work14.png" alt="AIパネル"></div>
+            <div class="marquee-img"><img src="./img/work15.png" alt="展示会"></div>
+          </div>
+          <div class="marquee-group">
+            <div class="marquee-img"><img src="./img/work16.png" alt="広告バナー①"></div>
+            <div class="marquee-img"><img src="./img/work17.png" alt="広告バナー②"></div>
+            <div class="marquee-img"><img src="./img/work18.png" alt="広告バナー③"></div>
+          </div>
+        </div>
+      </div>
+      <!-- 4列目 -->
+      <div class="marquee-track track-down">
+        <div class="marquee-content">
+          <div class="marquee-group">
+            <div class="marquee-img"><img src="./img/work19.png" alt="ノベルティカード"></div>
+            <div class="marquee-img"><img src="./img/work20.png" alt="ノベルティグッズ"></div>
+            <div class="marquee-img"><img src="./img/work21.png" alt="展示会ブース"></div>
+          </div>
+          <div class="marquee-group">
+            <div class="marquee-img"><img src="./img/work22.png" alt="展示会壁面"></div>
+            <div class="marquee-img"><img src="./img/work01.png" alt="コーポレートサイト"></div>
+            <div class="marquee-img"><img src="./img/work02.png" alt="名刺"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 画面中央タイポ -->
+    <div class="hero-text-content">
+      <div class="reveal-wrapper">
+        <h1 class="hero-title">CREATIVE</h1>
+      </div>
+      <div class="reveal-wrapper delay-1">
+        <h1 class="hero-title">WORKS</h1>
+      </div>
+      <div class="reveal-wrapper delay-2">
+        <p class="hero-subtitle">
+        自社・クライアント含め500点以上の制作実績<br>
+        ブランドの価値を整理し、統一感のあるアウトプットを実現します
+        </p>
+      </div>
+    </div>
+
+    <!-- スクロール -->
+    <div class="scroll-indicator delay-3">
+      <div class="mouse-icon"><div class="wheel"></div></div>
+      <span>SCROLL</span>
+    </div>
+  </section>
+
+  <main>
+    <!-- WORKS -->
+    <section class="section works-section" id="works">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">WORKS</h2>
+          <p class="section-subtitle">実績・プロジェクト</p>
+        </div>
+
+        <nav class="filter-nav">
+          <button class="filter-btn active" data-filter="all">ALL</button>
+          <button class="filter-btn" data-filter="web">WEB</button>
+          <button class="filter-btn" data-filter="graphic">GRAPHIC</button>
+          <button class="filter-btn" data-filter="direction">DIRECTION</button>
+        </nav>
+
+        <div class="works-grid" id="works-grid">
+          <article class="work-item show" data-category="web direction">
+            <a href="./work-detail/web-work01.html" class="work-card">
+              <div class="work-img"><img src="./img/web/corporate_web01.png" alt="コーポレートサイト"></div>
+              <div class="work-info">
+                <div class="work-tags">
+                  <span class="work-category">WEB</span>
+                  <span class="work-category">DIRECTION</span>
+                </div>
+                <h3 class="work-title">コーポレートサイト<br>リニューアル・改修・更新</h3>
+              </div>
+            </a>
+          </article>
+          
+          <article class="work-item show" data-category="web direction">
+            <a href="./work-detail/web-work02.html" class="work-card">
+              <div class="work-img"><img src="./img/web/recruit_web01.png" alt="採用サイト"></div>
+              <div class="work-info">
+                <div class="work-tags">
+                  <span class="work-category">WEB</span>
+                  <span class="work-category">DIRECTION</span>
+                </div>
+                <h3 class="work-title">採用サイト<br>リニューアル・改修・更新</h3>
+              </div>
+            </a>
+          </article>
+          
+          <article class="work-item show" data-category="web direction">
+            <a href="./work-detail/web-work03.html" class="work-card">
+              <div class="work-img"><img src="./img/web/ailp_web01.png" alt="AI開発 広告用LP"></div>
+              <div class="work-info">
+                <div class="work-tags">
+                  <span class="work-category">WEB</span>
+                  <span class="work-category">DIRECTION</span>
+                </div>
+                <h3 class="work-title">AI開発 広告用LP<br>新規制作・改修・更新</h3>
+              </div>
+            </a>
+          </article>
+
+          <article class="work-item show" data-category="web direction">
+            <a href="./work-detail/web-work04.html" class="work-card">
+              <div class="work-img"><img src="./img/web/ailp2_web01.png" alt="生成AI 広告用LP"></div>
+              <div class="work-info">
+                <div class="work-tags">
+                  <span class="work-category">WEB</span>
+                  <span class="work-category">DIRECTION</span>
+                </div>
+                <h3 class="work-title">生成AI 広告用LP<br>新規制作・改修・更新</h3>
+              </div>
+            </a>
+          </article>
+          
+          <article class="work-item show" data-category="web direction">
+            <a href="./work-detail/web-work05.html" class="work-card">
+              <div class="work-img"><img src="./img/web/devlp_web01.png" alt="受託開発 広告用LP"></div>
+              <div class="work-info">
+                <div class="work-tags">
+                  <span class="work-category">WEB</span>
+                  <span class="work-category">DIRECTION</span>
+                </div>
+                <h3 class="work-title">受託開発 広告用LP<br>新規制作・改修・更新</h3>
+              </div>
+            </a>
+          </article>
+          
+          <article class="work-item show" data-category="graphic">
+            <a href="./work-detail/graphic-work01.html" class="work-card">
+              <div class="work-img"><img src="./img/graphic/corporate_graphic01.png" alt="企業パンフレット"></div>
+              <div class="work-info">
+                <div class="work-tags">
+                  <span class="work-category">GRAPHIC</span>
+                </div>
+                <h3 class="work-title">企業パンフレット<br>リニューアル・更新</h3>
+              </div>
+            </a>
+          </article>
+
+          <article class="work-item show" data-category="graphic">
+            <a href="./work-detail/graphic-work02.html" class="work-card">
+              <div class="work-img"><img src="./img/graphic/parents_graphic01.png" alt="保護者向けパンフレット"></div>
+              <div class="work-info">
+                <div class="work-tags">
+                  <span class="work-category">GRAPHIC</span>
+                </div>
+                <h3 class="work-title">保護者向けパンフレット<br>リニューアル・更新</h3>
+              </div>
+            </a>
+          </article>
+          
+          <article class="work-item show" data-category="graphic">
+            <a href="./work-detail/graphic-work03.html" class="work-card">
+              <div class="work-img"><img src="./img/graphic/meishi_graphic01.png" alt="名刺"></div>
+              <div class="work-info">
+                <div class="work-tags">
+                  <span class="work-category">GRAPHIC</span>
+                </div>
+                <h3 class="work-title">名刺<br>リニューアル</h3>
+              </div>
+            </a>
+          </article>
+
+          <article class="work-item show" data-category="graphic">
+            <a href="./work-detail/graphic-work04.html" class="work-card">
+              <div class="work-img"><img src="./img/graphic/flyer_graphic01.png" alt="プロダクト チラシ"></div>
+              <div class="work-info">
+                <div class="work-tags">
+                  <span class="work-category">GRAPHIC</span>
+                </div>
+                <h3 class="work-title">プロダクト チラシ<br>新規制作</h3>
+              </div>
+            </a>
+          </article>
+
+          <article class="work-item show" data-category="graphic">
+            <a href="./work-detail/graphic-work05.html" class="work-card">
+              <div class="work-img"><img src="./img/graphic/seminar_graphic01.png" alt="各種セミナー資料"></div>
+              <div class="work-info">
+                <div class="work-tags">
+                  <span class="work-category">GRAPHIC</span>
+                </div>
+                <h3 class="work-title">各種セミナー資料<br>新規制作</h3>
+              </div>
+            </a>
+          </article>
+          
+          <article class="work-item show" data-category="graphic">
+            <a href="./work-detail/graphic-work06.html" class="work-card">
+              <div class="work-img"><img src="./img/graphic/service_graphic01.png" alt="各種サービス資料"></div>
+              <div class="work-info">
+                <div class="work-tags">
+                  <span class="work-category">GRAPHIC</span>
+                </div>
+                <h3 class="work-title">各種サービス資料<br>新規制作</h3>
+              </div>
+            </a>
+          </article>
+
+          <article class="work-item show" data-category="graphic">
+            <a href="./work-detail/graphic-work07.html" class="work-card">
+              <div class="work-img"><img src="./img/graphic/exhibition_graphic_01.png" alt="展示会 ノベルティ"></div>
+              <div class="work-info">
+                <div class="work-tags">
+                  <span class="work-category">GRAPHIC</span>
+                </div>
+                <h3 class="work-title">展示会 ノベルティ<br>新規制作</h3>
+              </div>
+            </a>
+          </article>
+
+          <article class="work-item show" data-category="graphic">
+            <a href="./work-detail/graphic-work08.html" class="work-card">
+              <div class="work-img"><img src="./img/graphic/exhibition_graphic_06.png" alt="展示会 壁面・パネル・壁掛け"></div>
+              <div class="work-info">
+                <div class="work-tags">
+                  <span class="work-category">GRAPHIC</span>
+                </div>
+                <h3 class="work-title">展示会 壁面・パネル・壁掛け<br>新規制作</h3>
+              </div>
+            </a>
+          </article>
+
+          <article class="work-item show" data-category="graphic">
+            <a href="./work-detail/graphic-work09.html" class="work-card">
+              <div class="work-img"><img src="./img/graphic/banner_graphic01.png" alt="広告バナー"></div>
+              <div class="work-info">
+                <div class="work-tags">
+                  <span class="work-category">GRAPHIC</span>
+                </div>
+                <h3 class="work-title">広告バナー<br>新規制作・更新</h3>
+              </div>
+            </a>
+          </article>
+
+          <article class="work-item show" data-category="graphic">
+            <a href="./work-detail/graphic-work10.html" class="work-card">
+              <div class="work-img"><img src="./img/graphic/keyvisual_graphic01.png" alt="プレスリリース・コラム"></div>
+              <div class="work-info">
+                <div class="work-tags">
+                  <span class="work-category">GRAPHIC</span>
+                </div>
+                <h3 class="work-title">プレスリリース・コラム<br>キービジュアル 新規制作</h3>
+              </div>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROFILE -->
+    <section class="section profile-section" id="profile">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">ABOUT ME</h2>
+          <p class="section-subtitle">自己紹介・スキル</p>
+        </div>
+        
+        <div class="profile-wrapper">
+          <!-- ① プロフィール -->
+          <div class="profile-card profile-main">
+            <div class="profile-img">
+              <img src="./img/profile_image.jpg" alt="プロフィール写真">
+            </div>
+            <div class="profile-text">
+              <h3>伊藤 桃子<span>MOMOKO ITO</span></h3>
+              <p class="job-title">Designer / Web Director</p>
+              <p class="bio">
+                デザイナー歴8年（グラフィック：8年／WEB：6年）、ディレクター歴5年<br>
+                新卒で地元の広告代理店にてデザイナーとしてクライアントワークに従事。<br>
+                自社のデザインに関わりたいと考えIT企業へ転職し、インハウスデザインを担当。
+                広報部に所属し、デザイン業務と並行して広報活動にも携わる。<br>
+              </p>
+            </div>
+          </div>
+
+          <!-- ② スキル・ツール -->
+          <div class="profile-card profile-skills">
+            <h4>SKILLS & TOOLS <span class="h4-ja">スキル・使えるツール</span></h4>
+            
+            <div class="skills-grid">
+              <!-- グループ1：デザイン -->
+              <div class="skill-group">
+                <h5 class="skill-group-title">Adobe / デザインツール</h5>
+                <div class="skill-tags">
+                  <span class="skill-tag">Adobe Photoshop</span>
+                  <span class="skill-tag">Adobe Illustrator</span>
+                  <span class="skill-tag">Adobe InDesign</span>
+                  <span class="skill-tag">Adobe XD</span>
+                  <span class="skill-tag">Adobe Acrobat</span>
+                  <span class="skill-tag">Figma</span>
+                  <span class="skill-tag">Canva</span>
+                </div>
+              </div>
+
+              <!-- グループ2：コーディング -->
+              <div class="skill-group">
+                <h5 class="skill-group-title">コーディング / 開発 / CMS</h5>
+                <div class="skill-tags">
+                  <span class="skill-tag">HTML / CSS</span>
+                  <span class="skill-tag">JavaScript</span>
+                  <span class="skill-tag">Visual Studio Code</span>
+                  <span class="skill-tag">GitHub</span>
+                  <span class="skill-tag">GitLab</span>
+                  <span class="skill-tag">WinSCP</span>
+                  <span class="skill-tag">WordPress</span>
+                </div>
+              </div>
+
+              <!-- グループ3：動画制作 -->
+              <div class="skill-group">
+                <h5 class="skill-group-title">動画制作</h5>
+                <div class="skill-tags">
+                  <span class="skill-tag">Adobe Premiere Pro</span>
+                  <span class="skill-tag">Adobe After Effects</span>
+                  <span class="skill-tag">CapCut</span>
+                </div>
+              </div>
+
+              <!-- グループ4：データ分析 -->
+              <div class="skill-group">
+                <h5 class="skill-group-title">データ分析 / マーケティング</h5>
+                <div class="skill-tags">
+                  <span class="skill-tag">Google Analytics</span>
+                  <span class="skill-tag">Google Search Console</span>
+                  <span class="skill-tag">Google Tag Manager</span>
+                  <span class="skill-tag">Google Looker Studio</span>
+                  <span class="skill-tag">Microsoft Clarity</span>
+                </div>
+              </div>
+
+              <!-- グループ5：AIツール -->
+              <div class="skill-group">
+                <h5 class="skill-group-title">AIツール</h5>
+                <div class="skill-tags">
+                  <span class="skill-tag">ChatGPT</span>
+                  <span class="skill-tag">Gemini</span>
+                  <span class="skill-tag">Copilot</span>
+                  <span class="skill-tag">Claude Code</span>
+                </div>
+              </div>
+
+              <!-- グループ6：オフィス -->
+              <div class="skill-group">
+                <h5 class="skill-group-title">その他オフィスツール</h5>
+                <div class="skill-tags">
+                  <span class="skill-tag">Microsoft Excel</span>
+                  <span class="skill-tag">Microsoft PowerPoint</span>
+                  <span class="skill-tag">Microsoft Word</span>
+                </div>
+              </div>
+
+              <!-- グループ7：Google -->
+              <div class="skill-group">
+                <h5 class="skill-group-title">その他Googleツール</h5>
+                <div class="skill-tags">
+                  <span class="skill-tag">Google Drive</span>
+                  <span class="skill-tag">Google Spreadsheet</span>
+                  <span class="skill-tag">Google Slide</span>
+                  <span class="skill-tag">Google Document</span>
+                  <span class="skill-tag">Google Site</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ③ 資格 ｜ 好きなこと -->
+          <div class="profile-sub-grid">
+            <!-- 左：資格 -->
+            <div class="profile-sub-card">
+              <h4>CERTIFICATIONS <span class="h4-ja">- 資格 -</span></h4>
+              <ul class="cert-list">
+                <li>文部科学省後援 色彩検定 2級</li>
+                <li>普通自動車第一種運転免許（AT限定）</li>
+                <li>Photoshopクリエイター能力認定試験 エキスパート</li>
+                <li>Illustratorクリエイター能力認定試験 エキスパート</li>
+                <li>ITパスポート試験</li>
+                <li>ウェブデザイン技能検定 3級</li>
+                <li>IMA検定 スタンダードコース</li>
+                <li>生成AIパスポート試験</li>
+                <li>Webディレクション検定</li>
+                <li>SEO検定 1級</li>
+              </ul>
+            </div>
+
+            <!-- 右：好きなこと -->
+            <div class="profile-sub-card">
+              <h4>VALUES <span class="h4-ja">- 大切にしていること -</span></h4>
+              <ul class="hobby-list">
+                <li>
+                  デザイナー×広報の視点でサービス・ブランドの価値を整理した統一感のあるデザイン制作を心がけています
+                </li>
+              </ul>
+              <br>
+              <h4>LIKES <span class="h4-ja">- 好きなこと -</span></h4>
+              <ul class="hobby-list">
+                <li>
+                  <div class="hobby-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg></div>
+                  <span class="hobby-text">蚤の市巡りや北欧雑貨集め</span>
+                </li>
+                <li>
+                  <div class="hobby-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg></div>
+                  <span class="hobby-text">漫画や小説を読むこと</span>
+                </li>
+                <li>
+                  <div class="hobby-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18"></rect><line x1="7" y1="2" x2="7" y2="22"></line><line x1="17" y1="2" x2="17" y2="22"></line><line x1="2" y1="12" x2="22" y2="12"></line><line x1="2" y1="7" x2="7" y2="7"></line><line x1="2" y1="17" x2="7" y2="17"></line><line x1="17" y1="17" x2="22" y2="17"></line><line x1="17" y1="7" x2="22" y2="7"></line></svg></div>
+                  <span class="hobby-text">映画・ドラマ・アニメ鑑賞</span>
+                </li>
+                <li>
+                  <div class="hobby-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M8 14s1.5 2 4 2 4-2 4-2"></path><line x1="9" y1="9" x2="9.01" y2="9"></line><line x1="15" y1="9" x2="15.01" y2="9"></line></svg></div>
+                  <span class="hobby-text">お笑いライブの観覧</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 Momoko Ito. All Rights Reserved.</p>
+  </footer>
+
+<button id="backToTop" class="back-to-top">
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+    <polyline points="18 15 12 9 6 15"></polyline>
+  </svg>
+</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
